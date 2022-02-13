@@ -1,0 +1,96 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+header{
+    background-color: chocolate;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: turquoise;
+    height: 100px;
+    font-style: italic;
+    margin: 0%;
+}
+
+img:hover {
+    transform: scaleX(-1);
+  }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+
+}
+
+li{
+    display: inline;
+    border-right:1px solid #bbb;
+}
+
+li a{
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+li a:hover{
+    background-color: burlywood;
+}
+
+ .column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+footer {
+    background-color: chocolate;
+    padding: 10px;
+    height: 15vh;
+    margin: 26rem 0 0 0;
+    text-align: left;
+    color: white;
+    font-family: cursive;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: end;
+    text-decoration: none;
+    margin: 2px 3px;
+    border-radius: 90%;
+    height: 10px;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-instagram {
+  background: purple;
+  color: rgb(201, 15, 15);
+}
